@@ -13,9 +13,11 @@ Note that the input array is passed in by reference, which means a modification 
 to the caller as well.
 """
 
+from typing import List
 
-class Solution:
-    def removeDuplicates(self, nums: list):
+
+class RemoveDuplicatesSolution:
+    def removeDuplicates(self, nums: List[int]) -> int:
         """
 
         :param nums: list[int]
